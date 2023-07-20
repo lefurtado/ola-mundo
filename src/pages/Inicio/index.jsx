@@ -1,6 +1,11 @@
+import Banner from "components/Banner";
+
 function Inicio() {
     return (
-        <div>Inicio</div>
+        <main>
+            <Banner />
+            <div>Inicio</div>
+        </main>
     )
 }
 
